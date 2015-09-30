@@ -3,11 +3,11 @@ Angular 1.x template with babel and jspm. Allows the use of the latest ECMAScrip
 ### Setup
 npm install
 jspm install
-### Build option 1 - injects the build.js
+**Build option 1 - injects the build.js**
 jspm bundle app/main --inject
-### Build option 2 - you must manual add the build.js to the index.htm
+**Build option 2 - you must manual add the build.js to the index.htm**
 jspm bundle app/main build.js
-## Results for testing on local server
+**Benefits as seen on local server**
 Before: 20 requests @ ~ 1360ms 
 After: 8 requests @ ~ 480ms
 ### Resources
