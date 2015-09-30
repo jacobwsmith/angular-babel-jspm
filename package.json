@@ -1,6 +1,10 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobwsmith/angular-babel-jspm.git"
+  },
+  "license": "MIT",
   "jspm": {
-    "directories": {},
     "dependencies": {
       "angular": "github:angular/bower-angular@^1.4.1",
       "clean-css": "npm:clean-css@^3.3.5",
@@ -10,6 +14,10 @@
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
       "core-js": "npm:core-js@^0.9.4"
+    },
+    "buildConfig": {
+      "transpileES6": true,
+      "minify": true
     }
   }
 }
