@@ -1,4 +1,7 @@
 # angular-babel-jspm
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Angular 1.x template with babel and jspm. Allows the use of the latest ECMAScript features.
 ### Setup
 npm install
